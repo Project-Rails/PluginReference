@@ -23,6 +23,7 @@ public class MotdCmd implements MC_Command {
 	}
 
 	@Override
+	//Please, please, PLEASE use this formatting guide for command help lines! Link: http://bit.do/dp8QK 
 	public String getHelpLine(MC_Player arg0) {
 		return ChatColor.AQUA + "/motd " + ChatColor.WHITE + "--- Server MOTD";
 	}
